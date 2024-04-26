@@ -1,0 +1,76 @@
+/* styles.css */
+
+.landing-page-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.description {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.instructions {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.option-button {
+  margin: 0 10px;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.option-button.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.functionality-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.functionality {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
